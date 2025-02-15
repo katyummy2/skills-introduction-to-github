@@ -1,15 +1,15 @@
 gantt
     title Project Gantt Chart (2024)
-    dateFormat  YYYY-MM-DD
-    axisFormat  %m-%d
+    dateFormat YYYY-MM-DD
+    axisFormat %m-%d
 
     section Project Phases
     Kick-Off/Planning        :a1, 2024-07-08, 7d
-    Data Collection         :a2, after a1, 2024-07-15, 64d
-    Data Validation         :a3, after a2, 2024-07-22, 77d
-    Report Drafting         :a4, after a3, 2024-10-14, 56d
-    Present Findings        :a5, after a4, 2024-12-16, 7d
-    Confirm Next Steps      :a6, after a5, 2024-12-30, 24d
+    Data Collection         :a2, after a1, 64d
+    Data Validation         :a3, after a2, 77d
+    Report Drafting         :a4, after a3, 56d
+    Present Findings        :a5, after a4, 7d
+    Confirm Next Steps      :a6, after a5, 24d
 
     section Key Milestones
     Project Charter & Roles Confirmed   :milestone, 2024-07-14, 0d
